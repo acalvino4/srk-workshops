@@ -8,3 +8,7 @@ conda activate env-name
 
 # add package to environment
 conda install -n env-name my-package
+
+
+# bundle into executable
+pyinstaller -F script-name
